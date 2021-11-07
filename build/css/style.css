@@ -409,3 +409,66 @@ p {
     width: auto;
   }
 }
+.clase__enlace:hover {
+  background-color: #f1363a;
+}
+.escuela {
+  background-image: url(../img/chef_bg.jpg);
+  background-position: 50%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: #fff;
+  padding: 20rem 0;
+  text-align: center;
+}
+.escuela__heading {
+  font-weight: 700;
+}
+.escuela__texto {
+  font-size: 2.6rem;
+  margin: 0 auto;
+  max-width: 50rem;
+}
+.escuela__enlace {
+  background-color: #f46669;
+  border: none;
+  color: #fff;
+  display: inline-block;
+  font-size: 2rem;
+  font-weight: 400;
+  font-weight: 700;
+  margin-top: 2rem;
+  padding: 1.5rem 4rem;
+  text-align: center;
+  transition-duration: 0.3s;
+  transition-property: background-color;
+}
+@media (min-width: 768px) {
+  .escuela__enlace {
+    width: auto;
+  }
+}
+.escuela__enlace:hover {
+  background-color: #f1363a;
+}
+.footer {
+  border-bottom: 0.5rem solid #f46669;
+  padding: 3rem 0;
+}
+@media (min-width: 768px) {
+  .footer__grid {
+    display: flex;
+    justify-content: space-between;
+  }
+}
+.footer__copy {
+  font-size: 2.4rem;
+  margin-top: 3rem;
+  text-align: center;
+}
+@media (min-width: 768px) {
+  .footer__copy {
+    margin: 0;
+  }
+}
+/*# sourceMappingURL=app.css.map */
