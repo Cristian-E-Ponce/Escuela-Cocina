@@ -388,3 +388,24 @@ p {
 .clase__descripcion {
   color: #f46669;
 }
+.clase__enlace {
+  background-color: #f46669;
+  border: none;
+  color: #fff;
+  display: inline-block;
+  display: block;
+  font-size: 2rem;
+  font-size: 1.6rem;
+  font-weight: 400;
+  font-weight: 700;
+  margin-top: 2rem;
+  padding: 1rem;
+  text-align: center;
+  transition-duration: 0.3s;
+  transition-property: background-color;
+}
+@media (min-width: 768px) {
+  .clase__enlace {
+    width: auto;
+  }
+}
